@@ -1,0 +1,29 @@
+=====================
+  Sobre
+=====================
+     AI Gibraltar é uma AI projetada para funcionar sem painel. Por isso note que não há arquivos de configurações e
+todas as opções são alteradas dentro do jogo Ragnarök Online.
+     Foi criada por mim, Arthur Gibraltar, do servidor bRO, Thor. Estou programando e modificando estes arquivos desde 
+aproximadamente 2007.
+     Alguns arquivos têm a propriedade "Somente Leitura" e/ou "Oculto". Você pode exibir esses arquivos alterando 
+opções de pasta do Windows Explorer. E pode editá-los, se quiser, clicando com o botão direito do mouse, abrindo a 
+janela "Propriedades" e mudando essas propriedades para o modo desativado (procedimento em Windows 7).
+     Contudo, esses arquivos com essas propriedades têm funções menos seguras de serem editadas e podem causar erros
+no jogo, aquelas mensagens de falha ao abrir os arquivos da AI, no Ragnarök Online.
+     Mais uma coisa: a AI foi feita para funcionar em servidores oficiais! Não presto suporte a servidores piratas ou
+ilegais!
+
+=====================
+  Usos
+=====================
+     A AI não deve ser vendida e nem usada para fins comerciais. Os arquivos são de propriedade do jogo, mas podem ser
+editados por nós, usuários.
+     Por isso, você pode editar livremente a minha AI, PORÉM, SE O FIZER, DEVE INFORMAR QUE ELA ESTÁ MODIFICADA, na 
+primeira linha deste arquivo ("Sobre AI Gibraltar.txt") e no local em que você publicá-la, se for publicá-la.
+     Eu sou um programador amador, por isso, não dou garantias de uso: é por sua própria conta e risco, não me
+responsabilizo por qualquer dano que ela possa lhe causar.
+     Nesta data de 14 de agosto de 2013, o site oficial em que estou publicando a AI é 
+<http://gibraltarai.blogspot.com.br/>. Contudo, não sei até quando poderei deixar o site aberto. Caso queira entrar 
+em contato, use minha página do Facebook: <https://www.facebook.com/ArthurGibraltarKenichi>. Posso modificar este 
+arquivo a qualquer momento e em qualquer nova publicação da AI, e o estarei disponibilizando no site, junto com os 
+arquivos da AI.

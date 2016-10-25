@@ -1,0 +1,36 @@
+Lista de pendências ("to do list"):
+
+- atualizar esta lista...
+
+- comportamento diferenciado pra monstros conhecidos
+
+- atualizar manuais
+
+
+
+- tick de SP
+mover só depois de 4 s
+
+
+
+Pronto:
+
+- "modo AFK" com uso de habilidades após um período sem se mexer
+
+- usar buffs de homunculus iniciais (configuração)
+
+- desativar evade sem desativar snipe
+
+- troca de lugar com "bandeira de hit" (não verificar o gesto só na hora de uso) e distância maior
+
+- delay para usar habilidades após troca de configuração
+
+- raiva iluminada
+
+- timers >= 8 s
+
+Cancelado (já tem como realizar de algum modo):
+
+- painkiller pra aliados: salvar
+
+- não fazer snipe em mvps
