@@ -18,7 +18,7 @@ end
 -- Settings
 --
 
-OptionInfoList["Trilinear"] = 1
+OptionInfoList["Trilinear"] = 0
 OptionInfoList["Bgm_Volume"] = 100
 OptionInfoList["Effect_Volume"] = 100
 OptionInfoList["MouseExclusive"] = 1
