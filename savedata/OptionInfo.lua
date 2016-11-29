@@ -22,7 +22,7 @@ CmdOnOffList["/itemsnap"] = 0
 CmdOnOffList["/skillsnap"] = 1
 CmdOnOffList["/hoai"] = 0
 CmdOnOffList["/merai"] = 0
-CmdOnOffList["/camera"] = 1
+CmdOnOffList["/camera"] = 0
 CmdOnOffList["/lightmap"] = 1
 CmdOnOffList["/monsterhp"] = 1
 
