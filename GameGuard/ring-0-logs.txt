@@ -26,3 +26,15 @@
 
 --- Error 2544 - corrupted file detected (ring.dll or infos.dll)
 
+--- Error 1123 - Suspect Activity
+
+--- Error 1123 - Suspect Activity
+
+--- Connection refused - 943 - Error
+
+--- Connection refused - 943 - Error
+
+--- Connection refused - 943 - Error
+
+--- Error 1123 - Suspect Activity
+

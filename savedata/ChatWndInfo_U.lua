@@ -53,7 +53,7 @@ ChatSubWnd_2 = {
 	option15 = 0,
 	option16 = 0,
 	option17 = 0,
-	option18 = 0,
+	option18 = 1,
 	option19 = 0,
 	option20 = 0,
 }
