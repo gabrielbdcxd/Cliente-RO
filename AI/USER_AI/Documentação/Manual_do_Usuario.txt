@@ -1,0 +1,248 @@
+=====================
+  INSTALAÇÃO
+=====================
+  A instalação é simples (como se fosse em um Add On em um jogo qualquer): 
+  1. Extraia o conteúdo do download. 
+
+  2. Coloque a pasta AI dentro do diretório do Ragnarök no computador, 
+substituindo a pasta original.
+
+  Nota: os arquivos da original também estão neste arquivo para download. 
+
+  3. No jogo, use a nova inteligência digitando "/hoai" (sem aspas) para o 
+homúnculo e "/merai" para assistente, até aparecer "controlado pelo 
+jogador" e "AI personalizada". 
+
+  4. Vaporize e Crie o homunculus, ou re'log'ue, para assistentes.
+
+---------------------
+Caso ocorram erros: 
+---------------------
+  1. Veja se a pasta AI está no local correto, e se você não colocou uma 
+pasta dentro de outra ao invés de substituir.
+
+  2. Verifique se você colocou a sua pasta AI na pasta de instalação do
+Ragnarök correta, caso tenha mais de uma por engano.
+
+  3. (Para Windows 7 e mais recentes) tenha certeza de que seu jogo 
+está sendo executado como Administrador para ter permissões de Leitura 
+e Gravação dos arquivos da AI. Caso mesmo assim o problema persista, tente 
+reinstalar o jogo para fora de uma pasta protegida do Windows (por exemplo, 
+fora de "Arquivos de Programas" ou "Program Files").
+
+Em caso de dúvidas, contate-me pela página da AI Gibraltar no Facebook. 
+Não estou mais respondendo a dúvidas pelo blog.
+
+
+
+=====================
+  COMANDOS PADRÕES
+=====================
+
+ATENÇÃO: estes comandos PADRÕES são os encontrados dentro do jogo! Não fui eu que 
+programei: o que eu editei na AI foi o que a combinação deles fará no comportamento 
+do homunculus.
+
+Nesta AI não é utilizado painel de controle. Você modifica 
+configurações dentro do jogo.
+
+Mais detalhes sobre comandos dos homunculi podem ser encontrados na 
+página de Homunculus do bRO Wiki: 
+<http://browiki.org/wiki/Homunculus#Comandos>.
+---------------------
+  AGUARDAR
+---------------------
+- Homunculus: Alt + T
+
+- Assistente: Ctrl + T
+
+- Ou selecionar opção "Aguardar" no menu ao aclicar com Botão Direito 
+do Mouse no Homunculus ou Assistente.
+---------------------
+  MOVER
+---------------------
+- Homunculus: Alt + Botão Direito do Mouse no solo 
+
+- Assistente: Alt + Botão Esquerdo do Mouse no solo
+
+  Alteração de funcionamento nesta AI: ao mandar o homúnculo ou 
+assistente se mover para a mesma posição de um alvo válido no PvP, 
+ele realiza um comando equivalente ao de Atacar.
+---------------------
+ ATACAR
+---------------------
+- Homunculus: Alt + Botão Direito do Mouse duas vezes em um alvo 
+
+- Assistente: Alt + Botão Esquerdo do Mouse duas vezes em um alvo 
+---------------------
+  MOVER RESERVADO
+---------------------
+- Homunculus: Shift + Alt + Botão Direito do Mouse no solo 
+
+- Assistente: Shift + Alt + Botão Esquerdo do Mouse no solo
+
+  Alteração de funcionamento nesta AI: 
+- para Dieter: realizar o comando uma vez o faz usar Cinzas Vulcânicas no 
+local desejado, em nível 5. Clicar duas vezes o comanda a realizar 
+Derretimento com Lava no local, em nível 5;
+- para Eira: o comando faz a homunculus realizar Onda Supersônica no local, 
+em nível 1. Duas vezes comanda a homunculus a usar em nível 5.
+- para Sera: o comando faz a homunculus realizar Névoa Venenosa no local, 
+em nível 1. Duas vezes comanda a homunculus a usar em nível 5.
+
+  Observação: o clique duplo é detectado num intervalo de tempo de até 850 ms, 
+e cliques muito rápidos não são detectados ou enviados para AI, sendo 
+recebido só o primeiro clique.
+
+  Essa alteração foi feita para poder lidar com um bug em que o homunculus 
+realiza os comandos de habilidade em área como se fosse o Bioquímico usando.
+Ou seja, o alcance é medido desde a posição do Bioquímico, e ele é que anda 
+até a posição desejada para usar a habilidade, não enviando comando algum para 
+a AI.
+---------------------
+ ATACAR RESERVADO
+---------------------
+- Homunculus: Shift + Alt + Botão Direito do Mouse duas vezes em um alvo 
+
+- Assistente: Shift + Alt + Botão Esquerdo do Mouse duas vezes em um alvo 
+
+  Alteração de funcionamento nesta AI: para Dieter, Sera ou Eira, realiza o 
+mesmo da modificação do Comando Reservado Mover. Contudo, é feito na posição 
+do alvo.
+
+
+
+=====================
+  COMANDOS BÁSICOS
+=====================
+  Abaixo, as combinações de comandos do jogo que alteram configurações da AI.
+  Algumas configurações podem ser verificadas dentro da pasta ID DATA: arquivos 
+são criados ou removidos de acordo com a configuração.
+---------------------
+  TROCAR COMPORTAMENTO
+---------------------
+  Alterna comportamento padrão (para todos) entre Defensivo ou Agressivo.
+
+  1. Use Aguardar.
+  2. Use Mover.
+---------------------
+  TROCAR COMPORTAMENTO PELO O TIPO DE INIMIGO
+---------------------
+  Alterna comportamento para determinado tipo de inimigo, ou para um jogador
+específico.
+
+  1. Use Atacar para marcar para homunculus ser Agressivo.
+  2. Use Mover enquanto o homunculus ataca ou persegue para marcar para 
+homunculus ser Defensivo.
+---------------------
+  ALTERAR HP MÍNIMO PARA APLICAR O COMPORTAMENTO AGRESSIVO
+---------------------
+  Muda o HP mínimo necessário para o homunculus ficar agressivo, seguindo a 
+configuração de comportamento.
+
+  1. Use Atacar diminuir o HP mínimo em 10%.
+  2. Use Mover enquanto o homunculus ataca ou persegue para aumentar o mínimo 
+de HP para atacar em 20%.
+---------------------
+  ATACAR À DISTÂNCIA 
+---------------------
+  Alterna entre os modos de atacar à distância ou perseguir.
+  COM O MESTRE EM PÉ:
+
+  1. Use Mover para a posição do mestre.
+
+  Para voltar a perseguir, mova o homunculus para qualquer posição ou para a 
+posição do mestre novamente.
+
+  O homunculus/assistente não vai perseguir os inimigos e só vai atacar os que se 
+aproximam, ou usar habilidades de longa distância (Capricho / Arqueiros), mas 
+caso algum inimigo agressivo esteja atacando de longe, o homunculus vai até ele.
+---------------------
+  MOVER-SE ALEATORIAMENTE ENQUANTO OCIOSO
+---------------------
+  Enquanto ocioso por muito tempo (1 minuto), homunculus começa a andar aleatoriamente a cada 30 s.
+  Caso seja um Amistr, usa Troca de Lugar para mover o jogador pelo mapa.
+  
+  Ao ativar a configuração, o homunculus se move 1 célula à esquerda do mestre.
+
+  Ao desativar a configuração, o homunculus se move 1 célula à direita do mestre.
+  
+  COM O MESTRE SENTADO:
+
+  1. Use Mover para a posição do mestre.
+
+  Faça o mesmo para voltar ao normal.
+---------------------
+  ADICIONAR ALIADO PROTEGIDO
+---------------------
+  Configura o homunculus ou assistente para ter KS permitido no alvo 
+escolhido.
+
+  1. Use Mover para a posição do alvo.
+
+Para desativar, use Mover para a posição do alvo novamente.
+---------------------
+  DESATIVAR/ATIVAR HABILIDADES AUTOMÁTICAS/ATIVAR HABILIDADES DE SUPORTE DE PÓS-CONJURAÇÃO ALTA
+---------------------
+  [Você pode ver o modo atual verificando os arquivos criados ou apagados na pasta ID DATA]
+  Escolhe quais habilidades usar automaticamente pelo homunculus.
+  Configuração cíclica:
+  - modo 0: não usar nenhuma habilidade automaticamente
+  
+  Ao ativar esse modo, o homunculus se move 1 célula à esquerda do mestre.
+  
+  - modo 1: usar habilidades automáticas normalmente
+
+  Ao ativar esse modo, o homunculus se move 1 célula abaixo do mestre.
+
+  - modo 2: usar habilidades automáticas incluindo as de pós-conjuração altas (Vôo Frenético, Bater em Retirada, Fortaleza 
+
+  Ao ativar esse modo, o homunculus se move 1 célula à direita do mestre.
+
+e Sede de Sangue): mas as de pós-conjuração serão utilizadas somente após o mestre ficar AFK (1 min ocioso)
+  Para alternar entre as opções, use Aguardar duas vezes:
+
+  1. Use Aguardar.
+  2. Use Aguardar.
+---------------------
+  DESATIVAR/ATIVAR "RECUAR PARA HABILIDADES"/ATIVAR SEM O MODO "EVASÃO" (ou "DESESPERO")
+---------------------
+  [Você pode ver o modo atual verificando os arquivos criados ou apagados na pasta ID DATA]
+  Configuração que permite que o homunculus se mova para longe para usar habilidades.
+  Configuração cíclica:
+  - modo 0: não ir para longe para usar habilidades à distância
+
+  Ao ativar esse modo, o homunculus se move 1 célula à esquerda (de sua própria posição).
+
+  - modo 1: usar habilidades à distância de tempos em tempos, e evadir de inimigos quando tiver pouco HP
+
+  Ao ativar esse modo, o homunculus se move 1 célula abaixo.
+
+  - modo 2: usar habilidades à distância de tempos em tempos, mas NÃO evadir de inimigos quando tiver pouco HP
+  Nota: algumas habilidades não serão usadas nesse modo: 
+  - Esquiva Especial 
+  - Armadura de Granito 
+  - Tremor de Fogo
+  - Raiva Iluminada.
+
+  Ao ativar esse modo, o homunculus se move 1 célula à direita.
+
+  Para alternar entre as opções, use:
+
+  1. Use Mover para a posição do homunculus.
+
+
+
+=====================
+  OBSERVAÇÕES
+=====================
+  1. A extensão de arquivos pode não aparecer em alguns computadores (mas 
+você pode alterar isso nas Opções de Pasta e Pesquisa do Windows).
+
+  2. "Aguardar" faz o homunculus somente seguir até que o comando seja 
+usado novamente ou a AI reinicie.
+
+  3. Cuidado para não deixar AFK perto de cercas e escadarias: o comando 
+de Mover da Gravity não faz contornos muito avançados e o homúnculo não 
+detecta uma cerca de somente 1 quadrado de diferença em alguns casos.
+
